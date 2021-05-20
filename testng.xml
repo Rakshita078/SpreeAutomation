@@ -1,0 +1,8 @@
+<suite name="Spree regression suite" verbose="1">
+    <parameter name="email" value="rakshita@gmail.com"/>
+    <test name="Login Scenarios">
+        <packages>
+            <package name="Login"/>
+        </packages>
+    </test>
+</suite>
