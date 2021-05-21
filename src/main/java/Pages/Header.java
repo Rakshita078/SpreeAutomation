@@ -1,6 +1,5 @@
 package Pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,9 +21,6 @@ public class Header extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    public void clickLoginButton() {
-        driver.findElement(By.id("link-to-login")).click();
-    }
 
     public String getLoginMessage() {
         wait.until(ExpectedConditions.visibilityOf(loginMessage));
