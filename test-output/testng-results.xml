@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-22T23:35:49 IST" name="Spree regression suite" finished-at="2021-05-22T23:36:08 IST" duration-ms="19628">
+    <groups>
+    </groups>
+    <test started-at="2021-05-22T23:35:49 IST" name="Login Test one" finished-at="2021-05-22T23:35:57 IST" duration-ms="8439">
+      <class name="Login.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.LoginTest@6a01e23]" started-at="2021-05-22T23:35:49 IST" name="setup" finished-at="2021-05-22T23:35:53 IST" duration-ms="4859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSuccessfulMessageOnValidLoginAndLogout(java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@6a01e23]" started-at="2021-05-22T23:35:53 IST" name="testSuccessfulMessageOnValidLoginAndLogout" finished-at="2021-05-22T23:35:57 IST" duration-ms="3447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rakshita@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raksh123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulMessageOnValidLoginAndLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.LoginTest@6a01e23]" started-at="2021-05-22T23:35:57 IST" name="tearDown" finished-at="2021-05-22T23:35:57 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Login.LoginTest -->
+    </test> <!-- Login Test one -->
+    <test started-at="2021-05-22T23:36:02 IST" name="Login Test Two" finished-at="2021-05-22T23:36:08 IST" duration-ms="6156">
+      <class name="Login.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.LoginTest@670002]" started-at="2021-05-22T23:36:02 IST" name="setup" finished-at="2021-05-22T23:36:06 IST" duration-ms="4297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFailureMessageOnInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@670002]" started-at="2021-05-22T23:36:06 IST" name="testFailureMessageOnInvalidLogin" finished-at="2021-05-22T23:36:08 IST" duration-ms="1749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rakshita@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[something]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailureMessageOnInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.LoginTest@670002]" started-at="2021-05-22T23:36:08 IST" name="tearDown" finished-at="2021-05-22T23:36:08 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Login.LoginTest -->
+    </test> <!-- Login Test Two -->
+  </suite> <!-- Spree regression suite -->
+</testng-results>
